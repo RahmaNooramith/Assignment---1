@@ -1,0 +1,162 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  min-height: 60vh;
+  background-size: cover;
+}
+
+.navbar-brand {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(236, 131, 10, 0.781);
+}
+/* .navbar-brand a:hover {
+  cursor: none;
+} */
+
+.navmenu ul {
+  display: flex;
+}
+
+.navbar-nav {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+/* description */
+.header {
+  font-family: sans-serif;
+  font-weight: bolder;
+  padding-top: 30px;
+  color: rgba(250, 135, 4, 0.781);
+}
+
+/* destination gallery */
+img {
+  max-width: 100%;
+}
+
+.gallery {
+  background-color: #fff;
+  padding: 80px 0;
+}
+
+.gallery img {
+  background-color: #fff;
+  padding: 5px;
+  width: 100%;
+}
+
+.gallery h4 {
+  font-size: medium;
+  color: black;
+  text-align: center;
+}
+
+/* TEAM LEADS */
+
+.team {
+  font-family: sans-serif;
+  font-weight: bolder;
+  padding-top: 30px;
+  color: rgba(250, 135, 4, 0.781);
+  padding: 60px 0;
+}
+
+.team h5 {
+  font-family: sans-serif;
+  font-size: 10px;
+  color: rgb(80, 78, 78);
+  text-align: ;
+}
+
+.leads {
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+.leads h5 {
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* ranks */
+.container {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.container h2 {
+  font-family: papyrus;
+  color: rgba(250, 135, 4, 0.781);
+  font-size: 50px;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.container p {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  color: #fff;
+}
+
+/* reviews */
+.container-reviews h3 {
+  color: rgb(30, 99, 226);
+}
+
+.container-reviews h6 {
+  color: dimgrey;
+}
+
+/* CONTACT */
+.contact h1 {
+  font-family: sans-serif;
+  font-weight: bolder;
+  padding-top: 10px;
+  color: rgba(250, 135, 4, 0.781);
+  padding: 10px 0;
+  text-align: center;
+}
+
+.checkbox {
+  color: rgba(0, 0, 0, 0.548);
+  font-weight: 15px;
+  font-size: medium;
+}
+
+.contact btn {
+  padding-bottom: 30px;
+  margin-top: 30px;
+  color: rgba(250, 135, 4, 0.781);
+}
+
+/* footer */
+.sticky-footer {
+  margin-top: auto;
+  position: sticky;
+  /* top: 100%; */
+  /* padding-top: 20px;
+  margin-top: 20px; */
+}
+.footer h4 {
+  color: rgba(250, 135, 4, 0.781);
+}
+
+.footer border-bottom {
+  color: rgba(14, 13, 13, 0.781);
+  position: sticky;
+  top: 100%;
+}
